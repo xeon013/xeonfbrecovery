@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XEON FB Recovery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .logo {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+        .status {
+            background: #28a745;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+            margin: 20px 0;
+        }
+        .info p {
+            margin: 10px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-top: 20px;
+        }
+        footer {
+            margin-top: 30px;
+            color: #666;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🔐</div>
+        <h1>XEON FB Recovery</h1>
+        <p>Facebook Account Recovery Tool</p>
+        
+        <div class="status">
+            ✅ Website is Live!
+        </div>
+        
+        <div class="info">
+            <p><strong>Repository:</strong> xeonfbrecovery</p>
+            <p><strong>Owner:</strong> xeon013</p>
+            <p><strong>Status:</strong> Active</p>
+            <p><strong>Hosted on:</strong> GitHub Pages</p>
+        </div>
+        
+        <a href="https://github.com/xeon013/xeonfbrecovery" class="btn">View Repository</a>
+        
+        <footer>
+            <p>GitHub Pages | Free Web Hosting</p>
+        </footer>
+    </div>
+</body>
+</html>
