@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">MyWebsite</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="mobile-menu" id="mobileMenu">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome To <span>My Website</span></h1>
+                <p>This is a modern, responsive website built with HTML, CSS, and JavaScript. Fully hosted on GitHub Pages for free!</p>
+                <button class="btn" id="learnMoreBtn">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm a passionate web developer. This website is created as an example to demonstrate how you can host your static website on GitHub Pages completely free.</p>
+                    <p>GitHub Pages is a fantastic service that allows you to host your HTML, CSS, and JavaScript files directly from your GitHub repository. It's perfect for portfolios, project documentation, or personal blogs.</p>
+                    <div class="skills">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">GitHub Pages</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>🖥️</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>What I Offer</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <p>Websites that look great on all devices - mobile, tablet, and desktop.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>Fast Performance</h3>
+                    <p>Optimized code for lightning-fast loading speeds.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Modern Design</h3>
+                    <p>Clean, professional, and eye-catching designs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <form id="contactForm">
+                    <input type="text" placeholder="Your Name" id="name" required>
+                    <input type="email" placeholder="Your Email" id="email" required>
+                    <textarea placeholder="Your Message" id="message" rows="5" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                    <p id="formMessage"></p>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <span>📧</span>
+                        <p>example@email.com</p>
+                    </div>
+                    <div class="info-item">
+                        <span>📞</span>
+                        <p>+880 1234 567890</p>
+                    </div>
+                    <div class="info-item">
+                        <span>📍</span>
+                        <p>Dhaka, Bangladesh</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 MyWebsite. Hosted on GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
