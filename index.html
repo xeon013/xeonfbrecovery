@@ -1,14 +1,174 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>XEON FB Recovery</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XEON FB Recovery Tool</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 50px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+            text-align: center;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #1a1a2e;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-size: 14px;
+            margin: 15px 0;
+        }
+
+        .info-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 25px 0;
+            text-align: left;
+            border-left: 4px solid #007bff;
+        }
+
+        .info-card p {
+            margin: 12px 0;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .info-card strong {
+            color: #007bff;
+            width: 120px;
+            display: inline-block;
+        }
+
+        .status {
+            background: #d4edda;
+            color: #155724;
+            padding: 12px;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            margin: 10px 5px;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        .btn-github {
+            background: #333;
+        }
+
+        .btn-github:hover {
+            background: #000;
+        }
+
+        footer {
+            margin-top: 30px;
+            color: #888;
+            font-size: 12px;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 20px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            .logo {
+                font-size: 60px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>XEON FB Recovery Tool</h1>
-    <p>Website is live and working!</p>
-    <p>GitHub Username: xeon013</p>
-    <p>Repository: xeonfbrecovery</p>
+    <div class="container">
+        <div class="logo">🔐</div>
+        <h1>XEON FB Recovery Tool</h1>
+        <p>Professional Facebook Account Recovery Solution</p>
+        
+        <div class="badge">✅ FULLY OPERATIONAL</div>
+        
+        <div class="status">
+            🟢 Website is Live & Working!
+        </div>
+        
+        <div class="info-card">
+            <p><strong>👤 GitHub Username:</strong> xeon013</p>
+            <p><strong>📁 Repository:</strong> xeonfbrecovery</p>
+            <p><strong>🌐 Hosted on:</strong> GitHub Pages</p>
+            <p><strong>⚡ Status:</strong> Active</p>
+            <p><strong>🔧 Tool Type:</strong> Facebook Recovery</p>
+        </div>
+        
+        <div>
+            <a href="https://github.com/xeon013" class="btn btn-github">🐙 View Profile</a>
+            <a href="https://github.com/xeon013/xeonfbrecovery" class="btn">📂 View Repository</a>
+        </div>
+        
+        <footer>
+            <p>© 2026 XEON | Powered by GitHub Pages</p>
+            <p>This tool is for educational purposes only</p>
+        </footer>
+    </div>
 </body>
 </html>
