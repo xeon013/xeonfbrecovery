@@ -1,0 +1,14 @@
+{
+  "licenses": {
+    "FB-ABC123DEF456": {
+      "status": "active",
+      "expiry": "2026-12-31",
+      "user": "Test User"
+    },
+    "FB-XYZ789GHI012": {
+      "status": "active",
+      "expiry": "2026-12-31", 
+      "user": "Client 1"
+    }
+  }
+}
