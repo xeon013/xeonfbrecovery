@@ -1,16 +1,16 @@
 {
   "licenses": {
-    "FB-XEON-001": {
+    "XEON13": {
       "status": "active",
       "expiry": "2030-12-31",
       "user": "Xeon Admin"
     },
-    "FB-ADMIN-2024": {
+    "ADMIN-2027": {
       "status": "active",
       "expiry": "2030-12-31",
       "user": "Administrator"
     },
-    "FB-XEON-RECOVERY": {
+    "test": {
       "status": "active",
       "expiry": "2030-12-31",
       "user": "Recovery Tool"
