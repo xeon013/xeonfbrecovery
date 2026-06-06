@@ -1,14 +1,14 @@
 {
   "licenses": {
-    "FB-ABC123DEF456": {
+    "FB-XEON-2024-001": {
+      "status": "active",
+      "expiry": "2026-12-31",
+      "user": "Xeon User"
+    },
+    "FB-TEST-001": {
       "status": "active",
       "expiry": "2026-12-31",
       "user": "Test User"
-    },
-    "FB-XYZ789GHI012": {
-      "status": "active",
-      "expiry": "2026-12-31", 
-      "user": "Client 1"
     }
   }
 }
